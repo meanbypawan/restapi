@@ -20,8 +20,8 @@ public class StateDAO {
 		   while(rs.next()) {
 			   int id = rs.getInt(1);
 			   String stateName = rs.getString(2);
-			   int cid = rs.getInt(3);
-			   al.add(new State(id,stateName,cid));
+			   
+			   al.add(new State(id,stateName));
 		   }
 	   }
 	   catch (Exception e) {

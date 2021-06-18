@@ -8,7 +8,7 @@ public class Getconnection {
 	  Connection con = null;
 	  try {
 		  Class.forName("com.mysql.jdbc.Driver");
-		  con = DriverManager.getConnection("jdbc:mysql://localhost:3306/resapi","root","root");
+		  con = DriverManager.getConnection("jdbc:mysql://mysql-35185-0.cloudclusters.net:35202/resapi","admin","Ze4ZdZgD");
 	  }
 	  catch (Exception e) {
 		e.printStackTrace();
